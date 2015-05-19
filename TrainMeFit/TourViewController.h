@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TourViewController : UIViewController
+#import "PageContentViewController.h"
+@interface TourViewController : UIViewController<UIPageViewControllerDataSource>
+- (IBAction)getStarted:(id)sender;
+@property (strong, nonatomic) UIPageViewController *pageViewController;
+@property (strong, nonatomic) NSArray *pageTitles;
+@property (strong, nonatomic) NSArray *pageDesc;
+@property (strong, nonatomic) NSArray *pageImages;
+@property (weak, nonatomic) IBOutlet UILabel *titleLBL;
+@property (weak, nonatomic) IBOutlet UILabel *descLbl;
+@property (weak, nonatomic) IBOutlet UIButton *getStarted;
 
 @end

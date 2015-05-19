@@ -7,9 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TextFieldValidator.h"
+#import <FacebookSDK/FacebookSDK.h>
+@interface LoginViewController : UIViewController
 
-@interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet TextFieldValidator *usernameTF;
+@property (weak, nonatomic) IBOutlet TextFieldValidator *passwordTF;
+@property (weak, nonatomic) IBOutlet UIButton *fbBTN;
+//Title
+@property (nonatomic, retain) NSString *Title;
+
+//Description
+@property (nonatomic, retain) NSString *Description;
+
+@property (nonatomic, retain) NSString *image;
+@property (weak, nonatomic) IBOutlet UIButton *gplusBTN;
+- (IBAction)signup:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *forgotP;
+- (IBAction)signIn:(id)sender;
+- (IBAction)FBAction:(id)sender;
 
 @end
 

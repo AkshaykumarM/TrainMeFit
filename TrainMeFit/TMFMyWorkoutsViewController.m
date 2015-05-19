@@ -7,7 +7,7 @@
 //
 
 #import "TMFMyWorkoutsViewController.h"
-
+#import "SWRevealViewController.h"
 @interface TMFMyWorkoutsViewController ()
 
 @end
@@ -16,9 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initialize];
     // Do any additional setup after loading the view.
 }
 
+-(void)initialize{
+    //adding swipe gesture
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

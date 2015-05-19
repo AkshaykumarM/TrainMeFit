@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface DayViewTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *checkImg;
+@property (weak, nonatomic) IBOutlet UILabel *exersiceLbl;
+@property (weak, nonatomic) IBOutlet UILabel *exersiceDetailLbl;
+@property (weak, nonatomic) IBOutlet UIImageView *infoImg;
+@property (weak, nonatomic) IBOutlet UILabel *infoLbl;
+@property (weak, nonatomic) IBOutlet UIImageView *backImgView;
+@property (weak, nonatomic) IBOutlet UIImageView *middleImgView;
 
 @end

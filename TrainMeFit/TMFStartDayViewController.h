@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface TMFStartDayViewController : UIViewController
+@property (strong, nonatomic)MPMoviePlayerController *player ;
+//@property (weak, nonatomic) IBOutlet UIView *movieView;
 
 @end

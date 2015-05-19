@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TMFContactUsViewController : UIViewController
-
+@property(nonatomic,retain)IBOutlet UIImageView *messageImgView;
+@property(nonatomic,retain)IBOutlet UITextField *text;
+@property(nonatomic,retain)IBOutlet UIButton *sendMessagebtn;
 @end

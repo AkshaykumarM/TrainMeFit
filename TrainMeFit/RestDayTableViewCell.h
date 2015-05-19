@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface RestDayTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *backImgView;
+@property (weak, nonatomic) IBOutlet UILabel *mainLbl;
+@property (weak, nonatomic) IBOutlet UILabel *detailLbl;
+@property (weak, nonatomic) IBOutlet UILabel *infoLbl;
+@property (weak, nonatomic) IBOutlet UIImageView *infoImgView;
+@property (weak, nonatomic) IBOutlet UIImageView *playImgView;
+@property (weak, nonatomic) IBOutlet UILabel *tryLbl;
 
 @end

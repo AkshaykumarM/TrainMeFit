@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface WeekViewTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *backImgView;
+@property (weak, nonatomic) IBOutlet UILabel *dateLBL;
+@property (weak, nonatomic) IBOutlet UILabel *monthNameLBL;
+@property (weak, nonatomic) IBOutlet UILabel *workoutNameLBL;
+@property (weak, nonatomic) IBOutlet UIImageView *backCheckImgView;
 
 @end

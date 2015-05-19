@@ -7,7 +7,7 @@
 //
 
 #import "TMFHelpViewController.h"
-
+#import "SWRevealViewController.h"
 @interface TMFHelpViewController ()
 
 @end
@@ -15,6 +15,7 @@
 @implementation TMFHelpViewController
 
 - (void)viewDidLoad {
+    [self initialize];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
@@ -23,7 +24,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)initialize{
+    //adding swipe gesture
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
+}
 /*
 #pragma mark - Navigation
 

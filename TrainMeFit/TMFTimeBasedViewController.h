@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TMFTimeBasedViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *detailedLbl;
+@property (weak, nonatomic) IBOutlet UILabel *mainLbl;
+@property (weak, nonatomic) IBOutlet UIImageView *backStatusImgView;
+@property (weak, nonatomic) IBOutlet UIImageView *BackImgView;
+@property (weak, nonatomic) IBOutlet UIImageView *playPauseImgView;
 
 @end

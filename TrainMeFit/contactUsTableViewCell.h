@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface contactUsTableViewCell : UITableViewCell
-
+@property (weak, nonatomic) IBOutlet UIImageView *contactTypeImgView;
+@property (weak, nonatomic) IBOutlet UILabel *contactInfoLbl;
 @end

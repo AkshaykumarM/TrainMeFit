@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TMFRestDayViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIImageView *restDayImgView;
+@property (weak, nonatomic) IBOutlet UILabel *restDaySchedule;
+@property (weak, nonatomic) IBOutlet UILabel *restDayLbl;
+@property (weak, nonatomic) IBOutlet UILabel *restDayDetailLbl;
 @end
