@@ -31,7 +31,7 @@ CGFloat animatedDistance;
 
 -(void)setViewLookAndFeel{
     
-    
+    ///jhjhjhju
     UIColor *color = [UIColor lightGrayColor];
     self.usernameTF.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"User ID" attributes:@{NSForegroundColorAttributeName: color}];
     self.passwordTF.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"Password" attributes:@{NSForegroundColorAttributeName: color}];
