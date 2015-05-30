@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TMFMyProfileViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *userImgView;
+- (IBAction)changePictureBtn:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *deletePictureBtn;
 
 @end

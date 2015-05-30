@@ -17,7 +17,6 @@
 @synthesize player;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     //for the mp4 playeron screen.....
     NSURL *url=[[NSURL alloc]initWithString:@"http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v"];
     player = [[MPMoviePlayerController alloc] initWithContentURL:url];
@@ -28,8 +27,17 @@
     player.controlStyle=MPMovieControlStyleEmbedded;
     [player play];
     [self initializeView];
+
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"left_G.png"] style:UIBarButtonItemStylePlain target:self action:@selector(leftbuttonclick)];
+    self.navigationItem.title=@"My Workouts";
     
 }
+-(void)leftbuttonclick{
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     

@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondFormViewController : UIViewController
+@interface SecondFormViewController : UIViewController <UITextFieldDelegate,UIPickerViewDataSource,UIPickerViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UITextField *heightTxtField;
 @property (weak, nonatomic) IBOutlet UITextField *weightTxtField;
 @property (weak, nonatomic) IBOutlet UITextField *ageTxtField;

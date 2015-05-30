@@ -29,7 +29,17 @@ CGFloat animatedDistance;
 -(void)viewDidAppear:(BOOL)animated{
     
         [super viewDidAppear:YES];
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"Close_G.png"] style:UIBarButtonItemStylePlain target:self action:@selector(close)];
+    
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithTitle:@"Sign up" style:UIBarButtonItemStylePlain target:self action:nil];
+    //self.navigationItem.leftBarButtonItem.title=[[UIBarButtonItem alloc]initWithImage:@"trainmefit_W.png" style:UIBarButtonItemStylePlain target:self action:nil]
 }
+-(void)close{
+   
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

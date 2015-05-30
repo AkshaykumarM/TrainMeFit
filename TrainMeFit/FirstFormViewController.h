@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstFormViewController : UIViewController
+@interface FirstFormViewController : UIViewController<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *firstNameTxtField;
 @property (weak, nonatomic) IBOutlet UITextField *lastNameTxtField;
 @property (weak, nonatomic) IBOutlet UIButton *leftBtn;
 @property (weak, nonatomic) IBOutlet UIButton *rightBtn;
 
+- (IBAction)leftbtn:(id)sender;
+- (IBAction)rightbtn:(id)sender;
+@property (weak,nonatomic) UIScrollView *ImagesScroller;
 @end

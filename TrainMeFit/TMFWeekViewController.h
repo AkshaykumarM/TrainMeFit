@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface TMFWeekViewController : UIViewController
-
+- (IBAction)NextWeek:(id)sender;
+- (IBAction)PreviousWeek:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *WeekTitle;
+@property (weak, nonatomic) IBOutlet UITableView *WeekTableview;
 
 @end

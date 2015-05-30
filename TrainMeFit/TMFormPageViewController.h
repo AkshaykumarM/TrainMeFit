@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TMFormPageViewController : UIPageViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate>
-{
-    
-    UIImage* inactiveImage;
-}
+
 
 @property(nonatomic, retain) UIImage* inactiveImage;
+
 @end

@@ -8,6 +8,7 @@
 
 #import "FourthFormViewController.h"
 
+
 @interface FourthFormViewController ()
 
 @end
@@ -17,7 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
     
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"menu_W.png"] style:UIBarButtonItemStylePlain target:self action:@selector(leftbuttonclick)];
+    self.navigationItem.leftBarButtonItem.title=@"Create Profile";
   //  UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
     //[_noButton setImage:[UIImage imageNamed:@"check.png"] forState:UIControlStateNormal];
@@ -25,7 +29,7 @@
   /*  [_noButton addTarget:self action:@selector(roundButtonDidTap:) forControlEvents:UIControlEventTouchUpInside];
     
     //width and height should be same value
-    _noButton.frame = CGRectMake(0, 0, 50, 50);
+   
     
     //Clip/Clear the other pieces whichever outside the rounded corner
     _noButton.clipsToBounds = YES;
@@ -34,24 +38,22 @@
     _noButton.layer.cornerRadius = 50/2.0f;
     _noButton.layer.borderColor=[UIColor redColor].CGColor;
     _noButton.layer.borderWidth=2.0f;*/
-    
-    _noButton.layer.borderColor=[[UIColor colorWithRed:0.667 green:0.78 blue:0.486 alpha:1] CGColor];
-    _noButton.layer.borderWidth=1.0f;
-    _noButton.contentMode=UIViewContentModeScaleAspectFit;
-    _noButton.layer.cornerRadius=45.0f;
-    _noButton.clipsToBounds=YES;
-    
-    
-    
-    
+  
    
-    
-    
-    
-    
-    
+    _noButton.layer.borderColor=[[UIColor colorWithRed:0.667 green:0.78 blue:0.486 alpha:1] CGColor];
+   _noButton.layer.borderWidth=1.0f;
+    _noButton.contentMode=UIViewContentModeScaleAspectFit;
+   _noButton.layer.cornerRadius=45.0f;
+   _noButton.clipsToBounds=YES;
+  
+
     // Do any additional setup after loading the view from its nib.
 }
+-(void)leftbuttonclick{
+    
+}
+
+
 -(void)roundButtonDidTap:(UIButton*)tappedButton{
     
     NSLog(@"roundButtonDidTap Method Called");

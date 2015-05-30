@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FifthFormViewController : UIViewController
-
+- (IBAction)savebtn:(id)sender;
+- (IBAction)RightBtn:(id)sender;
 @end

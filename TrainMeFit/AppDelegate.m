@@ -23,10 +23,26 @@
     
     pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
     pageControl.backgroundColor = [UIColor whiteColor];
+
     
     
+ 
+    
+    //UIImage *navBackgroundImage = [UIImage imageNamed:@"nav_bg.png"];
+    //[[UINavigationBar appearance] setBackgroundImage:navBackgroundImage forBarMetrics:UIBarMetricsDefault];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.384 green:0.392 blue:0.407 alpha:1]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
    
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor whiteColor] , UITextAttributeTextColor,
+                                                           [UIColor clearColor] ,UITextAttributeTextShadowColor,
+                                                           [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],
+                                                           UITextAttributeTextShadowOffset,
+                                                           [UIFont fontWithName:@"Roboto-Light" size:18.0], UITextAttributeFont, nil]];
+  
     return YES;
 }
 

@@ -7,24 +7,23 @@
 //
 
 #import "TMFormPageViewController.h"
-#import "FifthFormViewController.h"
-#import "FourthFormViewController.h"
-#import "ThirdFormViewController.h"
+#import "SWRevealViewController.h"
 
 
 @interface TMFormPageViewController ()
 
 @end
 
-
-
 @implementation TMFormPageViewController
 
 {
     NSArray *myViewControllers;
+
 }
 
+
 - (void)viewDidLoad {
+   
     [super viewDidLoad];
     
      // Do any additional setup after loading the view.
@@ -35,20 +34,25 @@
                             instantiateViewControllerWithIdentifier:@"Page1ID"];
     UIViewController *p2 = [self.storyboard
                             instantiateViewControllerWithIdentifier:@"Page2ID"];
+    UIViewController *p3 = [self.storyboard
+                            instantiateViewControllerWithIdentifier:@"Page3ID"];
+    UIViewController *p4 = [self.storyboard
+                            instantiateViewControllerWithIdentifier:@"Page4ID"];
+    UIViewController *p5 = [self.storyboard
+                            instantiateViewControllerWithIdentifier:@"Page5ID"];
+ 
+    myViewControllers = @[p1,p2,p3,p4,p5];
     
-    ThirdFormViewController *tvc = [[ThirdFormViewController alloc] initWithNibName:@"ThirdFormViewController" bundle:nil];    FourthFormViewController *fvc = [[FourthFormViewController alloc] initWithNibName:@"FourthFormViewController" bundle:nil];
-    FifthFormViewController *fivc = [[FifthFormViewController alloc] initWithNibName:@"FifthFormViewController" bundle:nil];
-    myViewControllers = @[p1,p2,tvc,fvc,fivc];
-    
-    [self setViewControllers:@[p1]
-                   direction:UIPageViewControllerNavigationDirectionForward
-                    animated:NO completion:nil];
-    
-    
-    
+    [self setViewControllers:@[p1] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
    
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"menu_W.png"] style:UIBarButtonItemStylePlain target:self action:@selector(leftbuttonclick)];
+    self.navigationItem.title=@"Create Profile";
+    
 }
 
+-(void)leftbuttonclick{
+    
+   }
 
 -(UIViewController *)viewControllerAtIndex:(NSUInteger)index
 {
@@ -72,6 +76,7 @@
     currentIndex = currentIndex % (myViewControllers.count);
     return [myViewControllers objectAtIndex:currentIndex];
 }
+
 -(NSInteger)presentationCountForPageViewController:
 (UIPageViewController *)pageViewController
 {
@@ -83,11 +88,6 @@
 {
     return 0;
 }
-
-
-
-
-
 
 
 

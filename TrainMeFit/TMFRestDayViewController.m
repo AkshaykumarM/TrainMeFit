@@ -18,7 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initializeView];
+    
+    self.navigationItem.rightBarButtonItem.title=@"1 July";
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"left_G.png"] style:UIBarButtonItemStylePlain target:self action:@selector(leftbuttonclick)];
+    self.navigationItem.title=@"My Workouts";
     // Do any additional setup after loading the view.
+}
+
+-(void)leftbuttonclick{
+    
+     [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

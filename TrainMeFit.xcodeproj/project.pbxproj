@@ -8,22 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		16724FA91B0D901E00CE12C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16724FA71B0D901E00CE12C3 /* Main.storyboard */; };
-		16724FB31B0D9EFE00CE12C3 /* FifthFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16724FB11B0D9EFE00CE12C3 /* FifthFormViewController.m */; };
-		16724FB41B0D9EFE00CE12C3 /* FifthFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16724FB21B0D9EFE00CE12C3 /* FifthFormViewController.xib */; };
-		16724FBC1B0DAAD200CE12C3 /* save_G.png in Resources */ = {isa = PBXBuildFile; fileRef = 16724FBB1B0DAAD200CE12C3 /* save_G.png */; };
-		16724FC01B0DB29F00CE12C3 /* FourthFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16724FBE1B0DB29F00CE12C3 /* FourthFormViewController.m */; };
-		16724FC11B0DB29F00CE12C3 /* FourthFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16724FBF1B0DB29F00CE12C3 /* FourthFormViewController.xib */; };
-		16724FC31B0DBAD200CE12C3 /* nogym_G1.png in Resources */ = {isa = PBXBuildFile; fileRef = 16724FC21B0DBAD200CE12C3 /* nogym_G1.png */; };
-		16724FC51B0DBD8900CE12C3 /* gym_G1.png in Resources */ = {isa = PBXBuildFile; fileRef = 16724FC41B0DBD8900CE12C3 /* gym_G1.png */; };
-		16724FC91B0DC1DB00CE12C3 /* ThirdFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16724FC71B0DC1DB00CE12C3 /* ThirdFormViewController.m */; };
-		16724FCA1B0DC1DB00CE12C3 /* ThirdFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16724FC81B0DC1DB00CE12C3 /* ThirdFormViewController.xib */; };
 		16724FCC1B0DFFD300CE12C3 /* right_G.png in Resources */ = {isa = PBXBuildFile; fileRef = 16724FCB1B0DFFD300CE12C3 /* right_G.png */; };
 		16724FCE1B0DFFDB00CE12C3 /* left_G.png in Resources */ = {isa = PBXBuildFile; fileRef = 16724FCD1B0DFFDB00CE12C3 /* left_G.png */; };
-		167DD2581B0B4098005540CC /* TMFormPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167DD2571B0B4098005540CC /* TMFormPageViewController.m */; };
-		167DD25C1B0B475B005540CC /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = 167DD25B1B0B475B005540CC /* Message.png */; };
 		168F88BC1B0C4207001FA8BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168F88BB1B0C4207001FA8BD /* QuartzCore.framework */; };
-		168F88BF1B0C5069001FA8BD /* FirstFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168F88BE1B0C5069001FA8BD /* FirstFormViewController.m */; };
-		168F88C21B0C5537001FA8BD /* SecondFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168F88C11B0C5537001FA8BD /* SecondFormViewController.m */; };
 		871B36041AF23C3600C7BBE4 /* TourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 871B36031AF23C3600C7BBE4 /* TourViewController.m */; };
 		871B36071AF23CD400C7BBE4 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 871B36061AF23CD400C7BBE4 /* PageContentViewController.m */; };
 		8725D9401AF0AE55009ABB5E /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 8725D93E1AF0AE54009ABB5E /* facebook.png */; };
@@ -79,9 +66,52 @@
 		87906CD61AEF7F51004833C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87906CD51AEF7F51004833C3 /* Images.xcassets */; };
 		87906CD91AEF7F51004833C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87906CD71AEF7F51004833C3 /* LaunchScreen.xib */; };
 		87906CE51AEF7F51004833C3 /* TrainMeFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87906CE41AEF7F51004833C3 /* TrainMeFitTests.m */; };
+		F448542C1B0F376500D8122C /* banknotes-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F44854281B0F376500D8122C /* banknotes-64.png */; };
+		F448542D1B0F376500D8122C /* cardInUse-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F44854291B0F376500D8122C /* cardInUse-64.png */; };
+		F448542E1B0F376500D8122C /* paypal-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F448542A1B0F376500D8122C /* paypal-64.png */; };
+		F448542F1B0F376500D8122C /* visa-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F448542B1B0F376500D8122C /* visa-64.png */; };
+		F44854321B0F395C00D8122C /* workOutPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44854311B0F395C00D8122C /* workOutPaymentViewController.m */; };
+		F44854361B0F5ADB00D8122C /* trainmefit_W.png in Resources */ = {isa = PBXBuildFile; fileRef = F44854351B0F5ADB00D8122C /* trainmefit_W.png */; };
 		F44A97881B076F7700EEDE6B /* StartDayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F44A97871B076F7600EEDE6B /* StartDayTableViewCell.m */; };
+		F46037A41B170C0A0056EFEA /* customPageContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = F46037A31B170C0A0056EFEA /* customPageContoller.m */; };
+		F46037A61B170EE60056EFEA /* activeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037A51B170EE60056EFEA /* activeImage.png */; };
+		F46037A81B170F090056EFEA /* inactiveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037A71B170F090056EFEA /* inactiveImage.png */; };
+		F46037AA1B17386B0056EFEA /* save_G.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037A91B17386B0056EFEA /* save_G.png */; };
+		F46037AC1B1739410056EFEA /* nogym_G1.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037AB1B1739410056EFEA /* nogym_G1.png */; };
+		F46037AE1B1739670056EFEA /* gym_G1.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037AD1B1739670056EFEA /* gym_G1.png */; };
+		F46037B01B17618C0056EFEA /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037AF1B17618C0056EFEA /* nav_bg.png */; };
+		F46037DD1B1769F70056EFEA /* 40×40.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037CE1B1769F70056EFEA /* 40×40.png */; };
+		F46037DE1B1769F70056EFEA /* 50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037CF1B1769F70056EFEA /* 50x50.png */; };
+		F46037DF1B1769F70056EFEA /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D01B1769F70056EFEA /* 57x57.png */; };
+		F46037E01B1769F70056EFEA /* 60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D11B1769F70056EFEA /* 60x60.png */; };
+		F46037E11B1769F70056EFEA /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D21B1769F70056EFEA /* 72x72.png */; };
+		F46037E21B1769F70056EFEA /* 76×76.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D31B1769F70056EFEA /* 76×76.png */; };
+		F46037E31B1769F70056EFEA /* 80×80.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D41B1769F70056EFEA /* 80×80.png */; };
+		F46037E41B1769F70056EFEA /* 100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D51B1769F70056EFEA /* 100x100.png */; };
+		F46037E51B1769F70056EFEA /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D61B1769F70056EFEA /* 114x114.png */; };
+		F46037E61B1769F70056EFEA /* 120×120.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D71B1769F70056EFEA /* 120×120.png */; };
+		F46037E71B1769F70056EFEA /* 152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D81B1769F70056EFEA /* 152x152.png */; };
+		F46037E81B1769F70056EFEA /* 171x171.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037D91B1769F70056EFEA /* 171x171.png */; };
+		F46037E91B1769F70056EFEA /* 180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037DA1B1769F70056EFEA /* 180x180.png */; };
+		F46037EA1B1769F70056EFEA /* 640X640.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037DB1B1769F70056EFEA /* 640X640.png */; };
+		F46037EB1B1769F70056EFEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F46037DC1B1769F70056EFEA /* Default-568h@2x.png */; };
+		F464BC5E1B15F27D003A1742 /* Restday.png in Resources */ = {isa = PBXBuildFile; fileRef = F464BC5D1B15F27D003A1742 /* Restday.png */; };
 		F464EB561B0B0EEC0053C9B2 /* contactUsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F464EB551B0B0EEC0053C9B2 /* contactUsTableViewCell.m */; };
 		F464EB581B0B19720053C9B2 /* message-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F464EB571B0B19720053C9B2 /* message-32.png */; };
+		F474C6E71B1497480041F060 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F474C6E61B1497480041F060 /* ForgotPasswordViewController.m */; };
+		F474C6EA1B1497CF0041F060 /* Close_G.png in Resources */ = {isa = PBXBuildFile; fileRef = F474C6E91B1497CF0041F060 /* Close_G.png */; };
+		F474C6F61B14CA520041F060 /* LaunchPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F474C6EF1B14CA520041F060 /* LaunchPageViewController.m */; };
+		F474C6F71B14CA520041F060 /* LaunchFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F474C6F11B14CA520041F060 /* LaunchFirstViewController.m */; };
+		F474C6F81B14CA520041F060 /* LaunchSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F474C6F31B14CA520041F060 /* LaunchSecondViewController.m */; };
+		F474C6F91B14CA520041F060 /* LaunchThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F474C6F51B14CA520041F060 /* LaunchThirdViewController.m */; };
+		F48C31F71B10514E000DE10A /* menu_W.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C31F61B10514E000DE10A /* menu_W.png */; };
+		F48C31F91B106F5B000DE10A /* edit_G16.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C31F81B106F5B000DE10A /* edit_G16.png */; };
+		F48EBCC11B13289B004E36C6 /* TMFormPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EBCB41B13289B004E36C6 /* TMFormPageViewController.m */; };
+		F48EBCC21B13289B004E36C6 /* FirstFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EBCB61B13289B004E36C6 /* FirstFormViewController.m */; };
+		F48EBCC31B13289B004E36C6 /* SecondFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EBCB81B13289B004E36C6 /* SecondFormViewController.m */; };
+		F48EBCC41B13289B004E36C6 /* ThirdFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EBCBA1B13289B004E36C6 /* ThirdFormViewController.m */; };
+		F48EBCC51B13289B004E36C6 /* FourthFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EBCBC1B13289B004E36C6 /* FourthFormViewController.m */; };
+		F48EBCC61B13289B004E36C6 /* FifthFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EBCBE1B13289B004E36C6 /* FifthFormViewController.m */; };
 		F49197671B07053300168B91 /* greenColor.png in Resources */ = {isa = PBXBuildFile; fileRef = F49197661B07053300168B91 /* greenColor.png */; };
 		F49197691B0727D400168B91 /* Repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = F49197681B0727D400168B91 /* Repeat.png */; };
 		F49197721B07356900168B91 /* TMFStartDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49197711B07356900168B91 /* TMFStartDayViewController.m */; };
@@ -97,6 +127,10 @@
 		F4B52EB01B0AFFA400B40B8F /* phone32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B52EAF1B0AFFA400B40B8F /* phone32.png */; };
 		F4B52EB21B0AFFD900B40B8F /* domain-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B52EB11B0AFFD900B40B8F /* domain-32.png */; };
 		F4B52EB41B0B006600B40B8F /* location-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B52EB31B0B006600B40B8F /* location-32.png */; };
+		F4D551681B0ED7A900EFBF93 /* MyProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D551671B0ED7A900EFBF93 /* MyProfileTableViewCell.m */; };
+		F4D5516A1B0EDCB900EFBF93 /* userPlaceholder60.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D551691B0EDCB900EFBF93 /* userPlaceholder60.png */; };
+		F4D5516E1B0EDFC800EFBF93 /* TMFEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5516D1B0EDFC800EFBF93 /* TMFEditViewController.m */; };
+		F4D551701B0EEC6700EFBF93 /* down_G.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D5516F1B0EEC6700EFBF93 /* down_G.png */; };
 		F4FEF7AF1B05D76900529D2F /* arrowBigRight.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FEF7AE1B05D76900529D2F /* arrowBigRight.png */; };
 		F4FEF7B11B05D93300529D2F /* arrowBigLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FEF7B01B05D93300529D2F /* arrowBigLeft.png */; };
 		F4FEF7B31B05DDBE00529D2F /* arrowSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FEF7B21B05DDBE00529D2F /* arrowSmall.png */; };
@@ -119,28 +153,9 @@
 
 /* Begin PBXFileReference section */
 		16724FA81B0D901E00CE12C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		16724FB01B0D9EFE00CE12C3 /* FifthFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthFormViewController.h; sourceTree = "<group>"; };
-		16724FB11B0D9EFE00CE12C3 /* FifthFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthFormViewController.m; sourceTree = "<group>"; };
-		16724FB21B0D9EFE00CE12C3 /* FifthFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthFormViewController.xib; sourceTree = "<group>"; };
-		16724FBB1B0DAAD200CE12C3 /* save_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_G.png; sourceTree = "<group>"; };
-		16724FBD1B0DB29F00CE12C3 /* FourthFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthFormViewController.h; sourceTree = "<group>"; };
-		16724FBE1B0DB29F00CE12C3 /* FourthFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthFormViewController.m; sourceTree = "<group>"; };
-		16724FBF1B0DB29F00CE12C3 /* FourthFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthFormViewController.xib; sourceTree = "<group>"; };
-		16724FC21B0DBAD200CE12C3 /* nogym_G1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nogym_G1.png; sourceTree = "<group>"; };
-		16724FC41B0DBD8900CE12C3 /* gym_G1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym_G1.png; sourceTree = "<group>"; };
-		16724FC61B0DC1DB00CE12C3 /* ThirdFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdFormViewController.h; sourceTree = "<group>"; };
-		16724FC71B0DC1DB00CE12C3 /* ThirdFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdFormViewController.m; sourceTree = "<group>"; };
-		16724FC81B0DC1DB00CE12C3 /* ThirdFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdFormViewController.xib; sourceTree = "<group>"; };
 		16724FCB1B0DFFD300CE12C3 /* right_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_G.png; sourceTree = "<group>"; };
 		16724FCD1B0DFFDB00CE12C3 /* left_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_G.png; sourceTree = "<group>"; };
-		167DD2561B0B4098005540CC /* TMFormPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFormPageViewController.h; sourceTree = "<group>"; };
-		167DD2571B0B4098005540CC /* TMFormPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFormPageViewController.m; sourceTree = "<group>"; };
-		167DD25B1B0B475B005540CC /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message.png; sourceTree = "<group>"; };
 		168F88BB1B0C4207001FA8BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		168F88BD1B0C5069001FA8BD /* FirstFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstFormViewController.h; sourceTree = "<group>"; };
-		168F88BE1B0C5069001FA8BD /* FirstFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstFormViewController.m; sourceTree = "<group>"; };
-		168F88C01B0C5537001FA8BD /* SecondFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondFormViewController.h; sourceTree = "<group>"; };
-		168F88C11B0C5537001FA8BD /* SecondFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondFormViewController.m; sourceTree = "<group>"; };
 		871B36021AF23C3600C7BBE4 /* TourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourViewController.h; sourceTree = "<group>"; };
 		871B36031AF23C3600C7BBE4 /* TourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourViewController.m; sourceTree = "<group>"; };
 		871B36051AF23CD400C7BBE4 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageContentViewController.h; path = images/PageContentViewController.h; sourceTree = "<group>"; };
@@ -224,11 +239,67 @@
 		87906CDE1AEF7F51004833C3 /* TrainMeFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainMeFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87906CE31AEF7F51004833C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87906CE41AEF7F51004833C3 /* TrainMeFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainMeFitTests.m; sourceTree = "<group>"; };
+		F44854281B0F376500D8122C /* banknotes-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banknotes-64.png"; sourceTree = "<group>"; };
+		F44854291B0F376500D8122C /* cardInUse-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardInUse-64.png"; sourceTree = "<group>"; };
+		F448542A1B0F376500D8122C /* paypal-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paypal-64.png"; sourceTree = "<group>"; };
+		F448542B1B0F376500D8122C /* visa-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa-64.png"; sourceTree = "<group>"; };
+		F44854301B0F395C00D8122C /* workOutPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workOutPaymentViewController.h; sourceTree = "<group>"; };
+		F44854311B0F395C00D8122C /* workOutPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = workOutPaymentViewController.m; sourceTree = "<group>"; };
+		F44854351B0F5ADB00D8122C /* trainmefit_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainmefit_W.png; sourceTree = "<group>"; };
 		F44A97861B076F7600EEDE6B /* StartDayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartDayTableViewCell.h; sourceTree = "<group>"; };
 		F44A97871B076F7600EEDE6B /* StartDayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartDayTableViewCell.m; sourceTree = "<group>"; };
+		F46037A21B170C0A0056EFEA /* customPageContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customPageContoller.h; sourceTree = "<group>"; };
+		F46037A31B170C0A0056EFEA /* customPageContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customPageContoller.m; sourceTree = "<group>"; };
+		F46037A51B170EE60056EFEA /* activeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activeImage.png; sourceTree = "<group>"; };
+		F46037A71B170F090056EFEA /* inactiveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inactiveImage.png; sourceTree = "<group>"; };
+		F46037A91B17386B0056EFEA /* save_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_G.png; sourceTree = "<group>"; };
+		F46037AB1B1739410056EFEA /* nogym_G1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nogym_G1.png; sourceTree = "<group>"; };
+		F46037AD1B1739670056EFEA /* gym_G1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym_G1.png; sourceTree = "<group>"; };
+		F46037AF1B17618C0056EFEA /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
+		F46037CE1B1769F70056EFEA /* 40×40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40×40.png"; sourceTree = "<group>"; };
+		F46037CF1B1769F70056EFEA /* 50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50x50.png; sourceTree = "<group>"; };
+		F46037D01B1769F70056EFEA /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		F46037D11B1769F70056EFEA /* 60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60x60.png; sourceTree = "<group>"; };
+		F46037D21B1769F70056EFEA /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
+		F46037D31B1769F70056EFEA /* 76×76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76×76.png"; sourceTree = "<group>"; };
+		F46037D41B1769F70056EFEA /* 80×80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80×80.png"; sourceTree = "<group>"; };
+		F46037D51B1769F70056EFEA /* 100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100x100.png; sourceTree = "<group>"; };
+		F46037D61B1769F70056EFEA /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		F46037D71B1769F70056EFEA /* 120×120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "120×120.png"; sourceTree = "<group>"; };
+		F46037D81B1769F70056EFEA /* 152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152x152.png; sourceTree = "<group>"; };
+		F46037D91B1769F70056EFEA /* 171x171.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 171x171.png; sourceTree = "<group>"; };
+		F46037DA1B1769F70056EFEA /* 180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180x180.png; sourceTree = "<group>"; };
+		F46037DB1B1769F70056EFEA /* 640X640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640X640.png; sourceTree = "<group>"; };
+		F46037DC1B1769F70056EFEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F464BC5D1B15F27D003A1742 /* Restday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restday.png; sourceTree = "<group>"; };
 		F464EB541B0B0EEC0053C9B2 /* contactUsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contactUsTableViewCell.h; sourceTree = "<group>"; };
 		F464EB551B0B0EEC0053C9B2 /* contactUsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contactUsTableViewCell.m; sourceTree = "<group>"; };
 		F464EB571B0B19720053C9B2 /* message-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message-32.png"; sourceTree = "<group>"; };
+		F474C6E51B14973D0041F060 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		F474C6E61B1497480041F060 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		F474C6E91B1497CF0041F060 /* Close_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Close_G.png; sourceTree = "<group>"; };
+		F474C6EE1B14CA520041F060 /* LaunchPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchPageViewController.h; sourceTree = "<group>"; };
+		F474C6EF1B14CA520041F060 /* LaunchPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchPageViewController.m; sourceTree = "<group>"; };
+		F474C6F01B14CA520041F060 /* LaunchFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchFirstViewController.h; sourceTree = "<group>"; };
+		F474C6F11B14CA520041F060 /* LaunchFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchFirstViewController.m; sourceTree = "<group>"; };
+		F474C6F21B14CA520041F060 /* LaunchSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchSecondViewController.h; sourceTree = "<group>"; };
+		F474C6F31B14CA520041F060 /* LaunchSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchSecondViewController.m; sourceTree = "<group>"; };
+		F474C6F41B14CA520041F060 /* LaunchThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchThirdViewController.h; sourceTree = "<group>"; };
+		F474C6F51B14CA520041F060 /* LaunchThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchThirdViewController.m; sourceTree = "<group>"; };
+		F48C31F61B10514E000DE10A /* menu_W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_W.png; sourceTree = "<group>"; };
+		F48C31F81B106F5B000DE10A /* edit_G16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_G16.png; sourceTree = "<group>"; };
+		F48EBCB31B13289B004E36C6 /* TMFormPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFormPageViewController.h; sourceTree = "<group>"; };
+		F48EBCB41B13289B004E36C6 /* TMFormPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFormPageViewController.m; sourceTree = "<group>"; };
+		F48EBCB51B13289B004E36C6 /* FirstFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstFormViewController.h; sourceTree = "<group>"; };
+		F48EBCB61B13289B004E36C6 /* FirstFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstFormViewController.m; sourceTree = "<group>"; };
+		F48EBCB71B13289B004E36C6 /* SecondFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondFormViewController.h; sourceTree = "<group>"; };
+		F48EBCB81B13289B004E36C6 /* SecondFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondFormViewController.m; sourceTree = "<group>"; };
+		F48EBCB91B13289B004E36C6 /* ThirdFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdFormViewController.h; sourceTree = "<group>"; };
+		F48EBCBA1B13289B004E36C6 /* ThirdFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdFormViewController.m; sourceTree = "<group>"; };
+		F48EBCBB1B13289B004E36C6 /* FourthFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthFormViewController.h; sourceTree = "<group>"; };
+		F48EBCBC1B13289B004E36C6 /* FourthFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthFormViewController.m; sourceTree = "<group>"; };
+		F48EBCBD1B13289B004E36C6 /* FifthFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthFormViewController.h; sourceTree = "<group>"; };
+		F48EBCBE1B13289B004E36C6 /* FifthFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthFormViewController.m; sourceTree = "<group>"; };
 		F49197661B07053300168B91 /* greenColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenColor.png; sourceTree = "<group>"; };
 		F49197681B0727D400168B91 /* Repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Repeat.png; path = ../Repeat.png; sourceTree = "<group>"; };
 		F49197701B07356900168B91 /* TMFStartDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFStartDayViewController.h; sourceTree = "<group>"; };
@@ -250,6 +321,12 @@
 		F4B52EAF1B0AFFA400B40B8F /* phone32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone32.png; sourceTree = "<group>"; };
 		F4B52EB11B0AFFD900B40B8F /* domain-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "domain-32.png"; sourceTree = "<group>"; };
 		F4B52EB31B0B006600B40B8F /* location-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location-32.png"; sourceTree = "<group>"; };
+		F4D551661B0ED7A900EFBF93 /* MyProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileTableViewCell.h; sourceTree = "<group>"; };
+		F4D551671B0ED7A900EFBF93 /* MyProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileTableViewCell.m; sourceTree = "<group>"; };
+		F4D551691B0EDCB900EFBF93 /* userPlaceholder60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPlaceholder60.png; sourceTree = "<group>"; };
+		F4D5516C1B0EDFC800EFBF93 /* TMFEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFEditViewController.h; sourceTree = "<group>"; };
+		F4D5516D1B0EDFC800EFBF93 /* TMFEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFEditViewController.m; sourceTree = "<group>"; };
+		F4D5516F1B0EEC6700EFBF93 /* down_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_G.png; sourceTree = "<group>"; };
 		F4FEF7AE1B05D76900529D2F /* arrowBigRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowBigRight.png; path = ../arrowBigRight.png; sourceTree = "<group>"; };
 		F4FEF7B01B05D93300529D2F /* arrowBigLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowBigLeft.png; sourceTree = "<group>"; };
 		F4FEF7B21B05DDBE00529D2F /* arrowSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowSmall.png; sourceTree = "<group>"; };
@@ -286,21 +363,22 @@
 		167DD2551B0B402B005540CC /* TMFFormFilling */ = {
 			isa = PBXGroup;
 			children = (
-				167DD2561B0B4098005540CC /* TMFormPageViewController.h */,
-				167DD2571B0B4098005540CC /* TMFormPageViewController.m */,
-				168F88BD1B0C5069001FA8BD /* FirstFormViewController.h */,
-				168F88BE1B0C5069001FA8BD /* FirstFormViewController.m */,
-				168F88C01B0C5537001FA8BD /* SecondFormViewController.h */,
-				168F88C11B0C5537001FA8BD /* SecondFormViewController.m */,
-				16724FC61B0DC1DB00CE12C3 /* ThirdFormViewController.h */,
-				16724FC71B0DC1DB00CE12C3 /* ThirdFormViewController.m */,
-				16724FC81B0DC1DB00CE12C3 /* ThirdFormViewController.xib */,
-				16724FB01B0D9EFE00CE12C3 /* FifthFormViewController.h */,
-				16724FB11B0D9EFE00CE12C3 /* FifthFormViewController.m */,
-				16724FB21B0D9EFE00CE12C3 /* FifthFormViewController.xib */,
-				16724FBD1B0DB29F00CE12C3 /* FourthFormViewController.h */,
-				16724FBE1B0DB29F00CE12C3 /* FourthFormViewController.m */,
-				16724FBF1B0DB29F00CE12C3 /* FourthFormViewController.xib */,
+				F46037A51B170EE60056EFEA /* activeImage.png */,
+				F46037A71B170F090056EFEA /* inactiveImage.png */,
+				F48EBCB31B13289B004E36C6 /* TMFormPageViewController.h */,
+				F48EBCB41B13289B004E36C6 /* TMFormPageViewController.m */,
+				F48EBCB51B13289B004E36C6 /* FirstFormViewController.h */,
+				F48EBCB61B13289B004E36C6 /* FirstFormViewController.m */,
+				F48EBCB71B13289B004E36C6 /* SecondFormViewController.h */,
+				F48EBCB81B13289B004E36C6 /* SecondFormViewController.m */,
+				F48EBCB91B13289B004E36C6 /* ThirdFormViewController.h */,
+				F48EBCBA1B13289B004E36C6 /* ThirdFormViewController.m */,
+				F48EBCBB1B13289B004E36C6 /* FourthFormViewController.h */,
+				F48EBCBC1B13289B004E36C6 /* FourthFormViewController.m */,
+				F48EBCBD1B13289B004E36C6 /* FifthFormViewController.h */,
+				F48EBCBE1B13289B004E36C6 /* FifthFormViewController.m */,
+				F46037A21B170C0A0056EFEA /* customPageContoller.h */,
+				F46037A31B170C0A0056EFEA /* customPageContoller.m */,
 			);
 			name = TMFFormFilling;
 			sourceTree = "<group>";
@@ -326,8 +404,11 @@
 		873AFC7A1B02084900F55436 /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
+				F4D5516B1B0EDF9500EFBF93 /* TMFEditProfile */,
 				873AFC6C1B02039000F55436 /* TMFMyProfileViewController.h */,
 				873AFC6D1B02039000F55436 /* TMFMyProfileViewController.m */,
+				F4D551661B0ED7A900EFBF93 /* MyProfileTableViewCell.h */,
+				F4D551671B0ED7A900EFBF93 /* MyProfileTableViewCell.m */,
 			);
 			name = MyProfile;
 			sourceTree = "<group>";
@@ -391,6 +472,7 @@
 		873AFC811B02098C00F55436 /* Walkthrough */ = {
 			isa = PBXGroup;
 			children = (
+				F474C6ED1B14CA340041F060 /* LaunchPageView */,
 				871B36021AF23C3600C7BBE4 /* TourViewController.h */,
 				871B36031AF23C3600C7BBE4 /* TourViewController.m */,
 				871B36051AF23CD400C7BBE4 /* PageContentViewController.h */,
@@ -474,23 +556,35 @@
 		8773DFC21AEFBDAA00E950B8 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F46037AF1B17618C0056EFEA /* nav_bg.png */,
 				873AFC8D1B02530A00F55436 /* check.png */,
 				873AFC861B02493100F55436 /* slider-right.png */,
-				16724FC41B0DBD8900CE12C3 /* gym_G1.png */,
+				F44854351B0F5ADB00D8122C /* trainmefit_W.png */,
 				F4FEF7CF1B06160A00529D2F /* checkmarkSmallest.png */,
-				16724FC21B0DBAD200CE12C3 /* nogym_G1.png */,
+				F46037AD1B1739670056EFEA /* gym_G1.png */,
+				F4D5516F1B0EEC6700EFBF93 /* down_G.png */,
+				F46037AB1B1739410056EFEA /* nogym_G1.png */,
+				F48C31F61B10514E000DE10A /* menu_W.png */,
+				F48C31F81B106F5B000DE10A /* edit_G16.png */,
 				F4B52EB31B0B006600B40B8F /* location-32.png */,
 				F4B52EB11B0AFFD900B40B8F /* domain-32.png */,
 				F464EB571B0B19720053C9B2 /* message-32.png */,
 				F4B52EAF1B0AFFA400B40B8F /* phone32.png */,
 				873AFC871B02493100F55436 /* slider-left.png */,
+				F464BC5D1B15F27D003A1742 /* Restday.png */,
 				F4B52EA31B0AD9FB00B40B8F /* stop24.png */,
-				16724FBB1B0DAAD200CE12C3 /* save_G.png */,
+				F474C6E91B1497CF0041F060 /* Close_G.png */,
+				F44854281B0F376500D8122C /* banknotes-64.png */,
+				F44854291B0F376500D8122C /* cardInUse-64.png */,
+				F448542A1B0F376500D8122C /* paypal-64.png */,
+				F448542B1B0F376500D8122C /* visa-64.png */,
+				F46037A91B17386B0056EFEA /* save_G.png */,
 				F4ABAFC71B09FCF200827104 /* play20.png */,
 				F4ABAFD01B0A05FB00827104 /* play24.png */,
 				8789F9651AFE45110058E861 /* SplashBackgrund.png */,
 				F4FEF7B21B05DDBE00529D2F /* arrowSmall.png */,
 				F49197681B0727D400168B91 /* Repeat.png */,
+				F4D551691B0EDCB900EFBF93 /* userPlaceholder60.png */,
 				F4FEF7D31B06185300529D2F /* infoSmall.png */,
 				F49197661B07053300168B91 /* greenColor.png */,
 				873EDD2A1AF7A3E100C8035E /* error.png */,
@@ -501,7 +595,6 @@
 				8725D9421AF0AF27009ABB5E /* splash_logo.png */,
 				8725D9431AF0AF27009ABB5E /* TMF.png */,
 				F4FEF7B01B05D93300529D2F /* arrowBigLeft.png */,
-				167DD25B1B0B475B005540CC /* Message.png */,
 				8725D93E1AF0AE54009ABB5E /* facebook.png */,
 				F4FEF7BE1B05F99E00529D2F /* checkmarkSmall.png */,
 				8725D93F1AF0AE55009ABB5E /* google-plus.png */,
@@ -554,11 +647,12 @@
 		87906CC71AEF7F51004833C3 /* TrainMeFit */ = {
 			isa = PBXGroup;
 			children = (
-				167DD2551B0B402B005540CC /* TMFFormFilling */,
-				F4ABAFC91B0A016D00827104 /* TMFTimeBasedWorkout */,
+				F46037B11B1769890056EFEA /* icons */,
 				87906CCC1AEF7F51004833C3 /* AppDelegate.h */,
 				87906CCD1AEF7F51004833C3 /* AppDelegate.m */,
-				F4B52EA81B0ADF5300B40B8F /* ContacUs */,
+				F467A81B1B0F07EC000C7FA4 /* Weekview */,
+				167DD2551B0B402B005540CC /* TMFFormFilling */,
+				F4ABAFC91B0A016D00827104 /* TMFTimeBasedWorkout */,
 				F4ABAFC01B09E9EE00827104 /* TMFRestDay */,
 				F49197751B073C1800168B91 /* TMFStartDay */,
 				F4FEF7CE1B06152700529D2F /* TMFDayVIew */,
@@ -570,23 +664,23 @@
 				873AFC831B0209D300F55436 /* Commons */,
 				873AFC821B0209B200F55436 /* Dependancies */,
 				873AFC811B02098C00F55436 /* Walkthrough */,
-				873AFC801B02096200F55436 /* TMFOthers */,
-				873AFC7F1B02092300F55436 /* TMFSetting */,
 				873AFC7E1B0208C900F55436 /* TMFMyAccount */,
-				873AFC7D1B02087100F55436 /* Help */,
+				F4B52EA81B0ADF5300B40B8F /* ContacUs */,
 				873AFC7C1B02086100F55436 /* MyWorkouts */,
 				873AFC7B1B02085500F55436 /* MyDiet */,
 				873AFC7A1B02084900F55436 /* MyProfile */,
+				873AFC801B02096200F55436 /* TMFOthers */,
+				873AFC7F1B02092300F55436 /* TMFSetting */,
+				873AFC7D1B02087100F55436 /* Help */,
+				F474C6E81B14974F0041F060 /* Forgot Password */,
 				873AFC791B02083900F55436 /* Signup */,
 				873AFC781B02082D00F55436 /* Login */,
-				8789F96A1AFE4B8F0058E861 /* TMFWeekViewController.h */,
-				8789F96B1AFE4B8F0058E861 /* TMFWeekViewController.m */,
 				87906CD51AEF7F51004833C3 /* Images.xcassets */,
 				16724FA71B0D901E00CE12C3 /* Main.storyboard */,
 				87906CD71AEF7F51004833C3 /* LaunchScreen.xib */,
 				87906CC81AEF7F51004833C3 /* Supporting Files */,
-				873AFC8A1B024A8400F55436 /* WeekViewTableViewCell.h */,
-				873AFC8B1B024A8400F55436 /* WeekViewTableViewCell.m */,
+				F44854301B0F395C00D8122C /* workOutPaymentViewController.h */,
+				F44854311B0F395C00D8122C /* workOutPaymentViewController.m */,
 			);
 			path = TrainMeFit;
 			sourceTree = "<group>";
@@ -615,6 +709,63 @@
 				87906CE31AEF7F51004833C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F46037B11B1769890056EFEA /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				F46037CE1B1769F70056EFEA /* 40×40.png */,
+				F46037CF1B1769F70056EFEA /* 50x50.png */,
+				F46037D01B1769F70056EFEA /* 57x57.png */,
+				F46037D11B1769F70056EFEA /* 60x60.png */,
+				F46037D21B1769F70056EFEA /* 72x72.png */,
+				F46037D31B1769F70056EFEA /* 76×76.png */,
+				F46037D41B1769F70056EFEA /* 80×80.png */,
+				F46037D51B1769F70056EFEA /* 100x100.png */,
+				F46037D61B1769F70056EFEA /* 114x114.png */,
+				F46037D71B1769F70056EFEA /* 120×120.png */,
+				F46037D81B1769F70056EFEA /* 152x152.png */,
+				F46037D91B1769F70056EFEA /* 171x171.png */,
+				F46037DA1B1769F70056EFEA /* 180x180.png */,
+				F46037DB1B1769F70056EFEA /* 640X640.png */,
+				F46037DC1B1769F70056EFEA /* Default-568h@2x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		F467A81B1B0F07EC000C7FA4 /* Weekview */ = {
+			isa = PBXGroup;
+			children = (
+				8789F96A1AFE4B8F0058E861 /* TMFWeekViewController.h */,
+				8789F96B1AFE4B8F0058E861 /* TMFWeekViewController.m */,
+				873AFC8A1B024A8400F55436 /* WeekViewTableViewCell.h */,
+				873AFC8B1B024A8400F55436 /* WeekViewTableViewCell.m */,
+			);
+			name = Weekview;
+			sourceTree = "<group>";
+		};
+		F474C6E81B14974F0041F060 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				F474C6E51B14973D0041F060 /* ForgotPasswordViewController.h */,
+				F474C6E61B1497480041F060 /* ForgotPasswordViewController.m */,
+			);
+			name = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		F474C6ED1B14CA340041F060 /* LaunchPageView */ = {
+			isa = PBXGroup;
+			children = (
+				F474C6EE1B14CA520041F060 /* LaunchPageViewController.h */,
+				F474C6EF1B14CA520041F060 /* LaunchPageViewController.m */,
+				F474C6F01B14CA520041F060 /* LaunchFirstViewController.h */,
+				F474C6F11B14CA520041F060 /* LaunchFirstViewController.m */,
+				F474C6F21B14CA520041F060 /* LaunchSecondViewController.h */,
+				F474C6F31B14CA520041F060 /* LaunchSecondViewController.m */,
+				F474C6F41B14CA520041F060 /* LaunchThirdViewController.h */,
+				F474C6F51B14CA520041F060 /* LaunchThirdViewController.m */,
+			);
+			name = LaunchPageView;
 			sourceTree = "<group>";
 		};
 		F49197751B073C1800168B91 /* TMFStartDay */ = {
@@ -659,6 +810,15 @@
 				F464EB551B0B0EEC0053C9B2 /* contactUsTableViewCell.m */,
 			);
 			name = ContacUs;
+			sourceTree = "<group>";
+		};
+		F4D5516B1B0EDF9500EFBF93 /* TMFEditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5516C1B0EDFC800EFBF93 /* TMFEditViewController.h */,
+				F4D5516D1B0EDFC800EFBF93 /* TMFEditViewController.m */,
+			);
+			name = TMFEditProfile;
 			sourceTree = "<group>";
 		};
 		F4FEF7CE1B06152700529D2F /* TMFDayVIew */ = {
@@ -721,6 +881,7 @@
 				TargetAttributes = {
 					87906CC41AEF7F51004833C3 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2Z7JY24VF7;
 					};
 					87906CDD1AEF7F51004833C3 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -752,58 +913,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16724FB41B0D9EFE00CE12C3 /* FifthFormViewController.xib in Resources */,
+				F46037DF1B1769F70056EFEA /* 57x57.png in Resources */,
+				F46037AC1B1739410056EFEA /* nogym_G1.png in Resources */,
+				F448542F1B0F376500D8122C /* visa-64.png in Resources */,
+				F4D5516A1B0EDCB900EFBF93 /* userPlaceholder60.png in Resources */,
 				873EDD241AF79DC800C8035E /* SVProgressHUD.bundle in Resources */,
+				F4D551701B0EEC6700EFBF93 /* down_G.png in Resources */,
+				F46037E51B1769F70056EFEA /* 114x114.png in Resources */,
 				873EDD2B1AF7A3E100C8035E /* error.png in Resources */,
+				F448542C1B0F376500D8122C /* banknotes-64.png in Resources */,
 				8773DFF41AEFC10C00E950B8 /* MyriadPro-BoldCondIt_0.otf in Resources */,
+				F46037E21B1769F70056EFEA /* 76×76.png in Resources */,
 				F4B52EA41B0AD9FB00B40B8F /* stop24.png in Resources */,
+				F46037EA1B1769F70056EFEA /* 640X640.png in Resources */,
 				8725D9441AF0AF27009ABB5E /* splash_logo.png in Resources */,
+				F46037E31B1769F70056EFEA /* 80×80.png in Resources */,
 				8789F9661AFE45110058E861 /* SplashBackgrund.png in Resources */,
 				8773DFF11AEFC10C00E950B8 /* MyriadPro-BlackIt.otf in Resources */,
-				16724FC11B0DB29F00CE12C3 /* FourthFormViewController.xib in Resources */,
 				F4B52EB41B0B006600B40B8F /* location-32.png in Resources */,
-				167DD25C1B0B475B005540CC /* Message.png in Resources */,
 				8725D94D1AF0DA24009ABB5E /* tour1.png in Resources */,
-				16724FC31B0DBAD200CE12C3 /* nogym_G1.png in Resources */,
 				8773DFF91AEFC10C00E950B8 /* MyriadPro-Light.otf in Resources */,
+				F46037E01B1769F70056EFEA /* 60x60.png in Resources */,
 				8773DFFB1AEFC10C00E950B8 /* MyriadPro-Regular_0.otf in Resources */,
 				F4ABAFD11B0A05FB00827104 /* play24.png in Resources */,
+				F46037AA1B17386B0056EFEA /* save_G.png in Resources */,
 				16724FCC1B0DFFD300CE12C3 /* right_G.png in Resources */,
 				8773DFF81AEFC10C00E950B8 /* MyriadPro-It_0.otf in Resources */,
 				8725D9401AF0AE55009ABB5E /* facebook.png in Resources */,
 				16724FA91B0D901E00CE12C3 /* Main.storyboard in Resources */,
+				F44854361B0F5ADB00D8122C /* trainmefit_W.png in Resources */,
 				F4FEF7D41B06185300529D2F /* infoSmall.png in Resources */,
 				8773DFFA1AEFC10C00E950B8 /* MyriadPro-LightIt.otf in Resources */,
 				F464EB581B0B19720053C9B2 /* message-32.png in Resources */,
+				F474C6EA1B1497CF0041F060 /* Close_G.png in Resources */,
 				8725D9411AF0AE55009ABB5E /* google-plus.png in Resources */,
 				8773DFF51AEFC10C00E950B8 /* MyriadPro-BoldIt_0.otf in Resources */,
 				873AFC891B02493100F55436 /* slider-left.png in Resources */,
+				F46037E61B1769F70056EFEA /* 120×120.png in Resources */,
+				F448542E1B0F376500D8122C /* paypal-64.png in Resources */,
+				F46037DD1B1769F70056EFEA /* 40×40.png in Resources */,
 				8773DFF61AEFC10C00E950B8 /* MyriadPro-Cond_0.otf in Resources */,
+				F46037E91B1769F70056EFEA /* 180x180.png in Resources */,
+				F46037E71B1769F70056EFEA /* 152x152.png in Resources */,
+				F46037E11B1769F70056EFEA /* 72x72.png in Resources */,
+				F46037AE1B1739670056EFEA /* gym_G1.png in Resources */,
 				8725D94C1AF0DA24009ABB5E /* tour2.png in Resources */,
+				F46037E41B1769F70056EFEA /* 100x100.png in Resources */,
+				F46037A61B170EE60056EFEA /* activeImage.png in Resources */,
 				F49197691B0727D400168B91 /* Repeat.png in Resources */,
+				F448542D1B0F376500D8122C /* cardInUse-64.png in Resources */,
+				F46037A81B170F090056EFEA /* inactiveImage.png in Resources */,
 				8773DFFD1AEFC10C00E950B8 /* MyriadPro-SemiboldIt_0.otf in Resources */,
+				F48C31F91B106F5B000DE10A /* edit_G16.png in Resources */,
 				16724FCE1B0DFFDB00CE12C3 /* left_G.png in Resources */,
 				F4B52EB21B0AFFD900B40B8F /* domain-32.png in Resources */,
 				F4ABAFC81B09FCF200827104 /* play20.png in Resources */,
 				8773DFF71AEFC10C00E950B8 /* MyriadPro-CondIt_0.otf in Resources */,
+				F46037EB1B1769F70056EFEA /* Default-568h@2x.png in Resources */,
 				87906CD91AEF7F51004833C3 /* LaunchScreen.xib in Resources */,
+				F46037DE1B1769F70056EFEA /* 50x50.png in Resources */,
+				F46037E81B1769F70056EFEA /* 171x171.png in Resources */,
 				F49197671B07053300168B91 /* greenColor.png in Resources */,
 				8773DFFC1AEFC10C00E950B8 /* MyriadPro-Semibold_0.otf in Resources */,
 				F4FEF7AF1B05D76900529D2F /* arrowBigRight.png in Resources */,
-				16724FBC1B0DAAD200CE12C3 /* save_G.png in Resources */,
 				F4FEF7BF1B05F99E00529D2F /* checkmarkSmall.png in Resources */,
+				F46037B01B17618C0056EFEA /* nav_bg.png in Resources */,
 				8773DFF01AEFC10C00E950B8 /* MyriadPro-Black.otf in Resources */,
 				8773DFF21AEFC10C00E950B8 /* MyriadPro-Bold_0.otf in Resources */,
 				8773DFC41AEFBDAA00E950B8 /* TMFlogo.png in Resources */,
 				F4FEF7B11B05D93300529D2F /* arrowBigLeft.png in Resources */,
 				87906CD61AEF7F51004833C3 /* Images.xcassets in Resources */,
+				F48C31F71B10514E000DE10A /* menu_W.png in Resources */,
 				873AFC8E1B02530A00F55436 /* check.png in Resources */,
+				F464BC5E1B15F27D003A1742 /* Restday.png in Resources */,
 				F4FEF7B31B05DDBE00529D2F /* arrowSmall.png in Resources */,
 				873AFC881B02493100F55436 /* slider-right.png in Resources */,
-				16724FCA1B0DC1DB00CE12C3 /* ThirdFormViewController.xib in Resources */,
 				F4B52EB01B0AFFA400B40B8F /* phone32.png in Resources */,
 				8773DFF31AEFC10C00E950B8 /* MyriadPro-BoldCond_0.otf in Resources */,
-				16724FC51B0DBD8900CE12C3 /* gym_G1.png in Resources */,
 				8725D9451AF0AF27009ABB5E /* TMF.png in Resources */,
 				F4FEF7D01B06160A00529D2F /* checkmarkSmallest.png in Resources */,
 			);
@@ -823,44 +1009,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F474C6E71B1497480041F060 /* ForgotPasswordViewController.m in Sources */,
 				873AFC6B1B02035D00F55436 /* TMFMyDietViewController.m in Sources */,
+				F46037A41B170C0A0056EFEA /* customPageContoller.m in Sources */,
 				871B36041AF23C3600C7BBE4 /* TourViewController.m in Sources */,
+				F48EBCC51B13289B004E36C6 /* FourthFormViewController.m in Sources */,
 				F49197721B07356900168B91 /* TMFStartDayViewController.m in Sources */,
 				87906CD11AEF7F51004833C3 /* LoginViewController.m in Sources */,
+				F474C6F81B14CA520041F060 /* LaunchSecondViewController.m in Sources */,
+				F4D5516E1B0EDFC800EFBF93 /* TMFEditViewController.m in Sources */,
 				F4ABAFCF1B0A045400827104 /* timeBasedTableViewCell.m in Sources */,
+				F48EBCC11B13289B004E36C6 /* TMFormPageViewController.m in Sources */,
 				871B36071AF23CD400C7BBE4 /* PageContentViewController.m in Sources */,
 				873AFC771B02044C00F55436 /* TMFOthersViewController.m in Sources */,
 				87906CCE1AEF7F51004833C3 /* AppDelegate.m in Sources */,
 				873EDD291AF7A32200C8035E /* TextFieldValidator.m in Sources */,
 				873EDD141AF78D9C00C8035E /* Common.m in Sources */,
-				16724FC91B0DC1DB00CE12C3 /* ThirdFormViewController.m in Sources */,
+				F474C6F61B14CA520041F060 /* LaunchPageViewController.m in Sources */,
+				F44854321B0F395C00D8122C /* workOutPaymentViewController.m in Sources */,
 				873AFC621B01DF2700F55436 /* MyAccountViewController.m in Sources */,
 				873AFC651B01E05D00F55436 /* MyAccountTableViewCell.m in Sources */,
 				F4ABAFC31B09EA3600827104 /* TMFRestDayViewController.m in Sources */,
 				8789F96C1AFE4B8F0058E861 /* TMFWeekViewController.m in Sources */,
 				F464EB561B0B0EEC0053C9B2 /* contactUsTableViewCell.m in Sources */,
+				F4D551681B0ED7A900EFBF93 /* MyProfileTableViewCell.m in Sources */,
 				873EDD251AF79DC800C8035E /* SVProgressHUD.m in Sources */,
+				F48EBCC31B13289B004E36C6 /* SecondFormViewController.m in Sources */,
+				F474C6F71B14CA520041F060 /* LaunchFirstViewController.m in Sources */,
 				873AFC741B0203EA00F55436 /* TMFHelpViewController.m in Sources */,
-				16724FB31B0D9EFE00CE12C3 /* FifthFormViewController.m in Sources */,
+				F474C6F91B14CA520041F060 /* LaunchThirdViewController.m in Sources */,
 				8789F9691AFE495E0058E861 /* SWRevealViewController.m in Sources */,
 				873AFC6E1B02039000F55436 /* TMFMyProfileViewController.m in Sources */,
 				F4ABAFCC1B0A01FB00827104 /* TMFTimeBasedViewController.m in Sources */,
 				F4FEF7CC1B06145100529D2F /* TMFDayViewController.m in Sources */,
 				87906CCB1AEF7F51004833C3 /* main.m in Sources */,
+				F48EBCC21B13289B004E36C6 /* FirstFormViewController.m in Sources */,
 				F4FEF7C91B06134A00529D2F /* DayViewTableViewCell.m in Sources */,
-				168F88BF1B0C5069001FA8BD /* FirstFormViewController.m in Sources */,
 				873EDD1A1AF79B8500C8035E /* global.m in Sources */,
 				8740B8521AF789F900A93B43 /* SignupViewController.m in Sources */,
 				F44A97881B076F7700EEDE6B /* StartDayTableViewCell.m in Sources */,
 				873EDD171AF79B5E00C8035E /* Reachability.m in Sources */,
 				873EDD231AF79DC800C8035E /* SVIndefiniteAnimatedView.m in Sources */,
+				F48EBCC61B13289B004E36C6 /* FifthFormViewController.m in Sources */,
+				F48EBCC41B13289B004E36C6 /* ThirdFormViewController.m in Sources */,
 				873AFC8C1B024A8400F55436 /* WeekViewTableViewCell.m in Sources */,
-				168F88C21B0C5537001FA8BD /* SecondFormViewController.m in Sources */,
-				16724FC01B0DB29F00CE12C3 /* FourthFormViewController.m in Sources */,
 				873AFC681B0202BA00F55436 /* TMFMyWorkoutsViewController.m in Sources */,
 				873AFC711B0203C000F55436 /* TMFSettingsViewController.m in Sources */,
 				F4ABAFC61B09EA7C00827104 /* RestDayTableViewCell.m in Sources */,
-				167DD2581B0B4098005540CC /* TMFormPageViewController.m in Sources */,
 				F4B52EA71B0ADF4600B40B8F /* TMFContactUsViewController.m in Sources */,
 				8740B84F1AF7550900A93B43 /* PushNoAnimationSegue.m in Sources */,
 			);
@@ -984,6 +1179,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TrainMeFit/Frameworks",
@@ -992,6 +1189,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -999,6 +1197,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TrainMeFit/Frameworks",
@@ -1007,6 +1207,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

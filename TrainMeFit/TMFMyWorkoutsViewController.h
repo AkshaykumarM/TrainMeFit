@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TMFMyWorkoutsViewController : UIViewController
-
+@interface TMFMyWorkoutsViewController : UIViewController<UIPickerViewDataSource,UIPickerViewDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *userNameLbl;
+- (IBAction)planSelectionBtn:(id)sender;
+- (IBAction)payBtn:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *tryWorkoutsBtn;
+@property (weak, nonatomic) IBOutlet UIButton *payOutlet;
+@property (weak, nonatomic) IBOutlet UIPickerView *planPickerView;
+@property(nonatomic,retain)NSArray *plans;
 @end

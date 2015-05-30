@@ -16,11 +16,18 @@
 @implementation TMFDayViewController
 
 - (void)viewDidLoad {
-    
+      [super viewDidLoad];
     [self initializeView];
+  
+    self.navigationItem.rightBarButtonItem.title=@"1 July";
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"left_G.png"] style:UIBarButtonItemStylePlain target:self action:@selector(leftbuttonclick)];
+    self.navigationItem.title=@"My Workouts";
     
-    [super viewDidLoad];
     
+}
+-(void)leftbuttonclick{
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -49,6 +56,7 @@
     return _backlineImgView;
     
 }
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *tableIdentifier;
@@ -63,7 +71,7 @@
     cell.middleImgView.layer.cornerRadius=20.0f;
     cell.middleImgView.clipsToBounds=YES;
     cell.exersiceLbl.text=@"Chest DB Files";
-    cell.exersiceDetailLbl.text=@"3 Sets of !0 reps-10 Kg";
+    cell.exersiceDetailLbl.text=@"3 sets of 10 reps - 10 Kg";
     [cell.infoImg setImage:[UIImage imageNamed:@"infoSmall.png"]];
     [cell.checkImg setImage:[UIImage imageNamed:@"checkmarkSmallest.png"]];
     [cell.backImgView setImage:[UIImage imageNamed:@"greenColor.png"]];
@@ -71,6 +79,12 @@
     
         return cell;
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+       // [self performSegueWithIdentifier:@"StartVideoSegue" sender:self];
+    
+}
+
 
 -(void)initializeView{
     //setting the width of sidebar

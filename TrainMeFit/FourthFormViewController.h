@@ -12,4 +12,5 @@
 @interface FourthFormViewController : UIViewController
 -(void)roundButtonDidTap:(UIButton*)tappedButton;
 @property (weak, nonatomic) IBOutlet UIButton *noButton;
+@property (weak, nonatomic) IBOutlet UIButton *yesButton;
 @end

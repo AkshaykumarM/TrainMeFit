@@ -17,7 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initialize];
+    
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"menu_W.png"] style:UIBarButtonItemStylePlain target:self action:@selector(leftbuttonclick)];
+    self.navigationItem.title=@"MyDiet";
+
     // Do any additional setup after loading the view.
+}
+-(void)leftbuttonclick
+{
+    
+    SWRevealViewController *sw=self.revealViewController;
+    sw.rearViewRevealWidth=self.view.frame.size.width-60.0f;
+    self.navigationItem.leftBarButtonItem.target=self.revealViewController;
+    self.navigationItem.leftBarButtonItem.action=@selector(revealToggle:);
+    [self.navigationController.topViewController.navigationItem setHidesBackButton:YES];
+    [self.view addGestureRecognizer:self.revealViewController.tapGestureRecognizer];
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 -(void)initialize{

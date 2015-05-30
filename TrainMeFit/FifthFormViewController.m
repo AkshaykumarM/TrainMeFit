@@ -8,6 +8,7 @@
 
 #import "FifthFormViewController.h"
 
+
 @interface FifthFormViewController ()
 
 @end
@@ -17,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+
+    
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"menu_W.png"] style:UIBarButtonItemStylePlain target:self action:@selector(leftbuttonclick)];
+    self.navigationItem.leftBarButtonItem.title=@"Create Profile";
+}
+-(void)leftbuttonclick{
+    
+    
+}
+- (IBAction)RightBtn:(id)sender {
+    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Alert" message:@"Please Click On Save button" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +46,9 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)savebtn:(id)sender {
+    
+}
 
 @end
